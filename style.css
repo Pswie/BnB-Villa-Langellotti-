@@ -1317,3 +1317,14 @@ Booking page style start
   outline: 0;
   box-shadow: none;
 }
+
+
+
+
+.img-fluid {
+  width: 100%;    /* Assicura che l'immagine sia larga quanto il contenitore */
+  height: auto;   /* Mantiene le proporzioni */
+  min-height: 100%; /* Assicura che l'immagine sia alta almeno quanto il contenitore */
+  object-fit: cover; /* Copre il contenitore senza perdere le proporzioni */
+}
+
